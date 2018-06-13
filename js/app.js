@@ -4,7 +4,12 @@ var text = window.prompt("tapper votre texte");
 
 if (text != null) {
   for (var i = 0; i < alpha.length; i++) {
-    letter = text.indexOf(alpha[i]);
+    letterIndex = text.indexOf(alpha[i]);
+if (letterIndex >=0 ){
+
+    console.log(alpha[i]);
+    console.log(letterIndex);
+    console.log(i);
+}
   }
 }
-// console.log(alpha[10]);
